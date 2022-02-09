@@ -1,0 +1,7 @@
+beautifulsoup4
+numpy
+pandas
+plotly-express
+pytrends
+requests
+tqdm

@@ -1,0 +1,414 @@
+RUN:
+  GOOGLETRENDS:
+    VIABILITY:
+      FIND: True
+    BASELINE:
+      FIND: True
+      DO: True
+  GOOGLE:
+    FRONTPAGE:
+      DO: True
+  PLOT:
+    True
+
+VARS:
+  GOOGLETRENDS:
+    VIABILITY:
+      ZEROCOUNT:
+        VIABLE: 3
+        FEW: 7
+        MANY: 15
+        ALMOSTNONE: 30
+      TERMS:
+        - Environment statistics
+        - Environment data
+        - Agriculture statistics
+        - Energy statistics
+        - Energy data
+        - Recycling statistics
+        - Air quality statistics
+        - Farming statistics
+        - Farming data
+        - Climate data
+        - Climate change statistics
+        - Green energy statistics
+        - Renewable energy statistics
+        - Crop statistics
+        - Livestock statistics
+        - Land use statistics
+        - Land use data
+        - Pollution statistics
+        - River data
+        - Fish data
+        - Cod statistics
+        - Cod data
+        - Cattle statistics
+        - Co2 data
+        - Greenhouse gas statistics
+        - Greenhouse gas data
+        - Wind energy statistics
+        - Nitrogen oxide data
+        - VOC data
+        - Sheep data
+        - Trade statistics
+        - Product statistics
+        - Product data
+        - Company statistics
+        - Company data
+        - Trade data
+        - Corporate data
+        - Manufacturing statistics
+        - Marketing statistics
+        - Research statistics
+        - Consumer product data
+        - Consumer product statistics
+        - Accountancy statistics
+        - Finance company statistics
+        - Business index data
+        - Stock market statistics
+        - Stock market data
+        - Patent statistics
+        - Patent data
+        - Development index data
+        - Lead time to export
+        - Lead time to import
+        - Logistics performance index
+        - SDG statistics
+        - Brexit statistics
+        - Brexit data
+        - EU trade data
+        - EU trade statistics
+        - Small business statistics
+        - FTSE data
+        - Children statistics
+        - Education statistics
+        - Education data
+        - School statistics
+        - Skills statistics
+        - Teacher statistics
+        - University statistics
+        - University data
+        - Student statistics
+        - Skills data
+        - Exam data
+        - Exam statistics
+        - Primary school statistics
+        - Secondary school statistics
+        - Vocational statistics
+        - Open university statistics
+        - Public school statistics
+        - Private school statistics
+        - Retraining statistics
+        - Childhood statistics
+        - Literacy rate
+        - Number of children out of school
+        - School enrollment statistics
+        - Primary completion rate
+        - Expenditure per student
+        - Mature student statistics
+        - Child labour statistics
+        - Child abuse statistics
+        - Child health statistics
+        - Child health data
+        - Crime statistics
+        - Crime data
+        - Justice statistics
+        - Court statistics
+        - Defence statistics
+        - Police statistics
+        - Police data
+        - Law statistics
+        - Terrorism statistics
+        - Military statistics
+        - Knife crime statistics
+        - Hate crime statistics
+        - Rape statistics
+        - Police funding statistics
+        - Local crime statistics
+        - Criminal law statistics
+        - National security statistics
+        - Street crime statistics
+        - Army statistics
+        - Murder statistics
+        - Stop and search statistics
+        - Police fine data
+        - Cyber security statistics
+        - CCTV statistics
+        - Home security statistics
+        - Food security statistics
+        - Domestic violence statistics
+        - Drug crime statistics
+        - Vehicle crime statistics
+        - Weapons crime statistics
+        - Ethnicity statistics
+        - Gender statistics
+        - Diversity statistics
+        - Data linkage
+        - Economy statistics
+        - Economy data
+        - Monetary statistics
+        - Microeconomic statistics
+        - Macroeconomic statistics
+        - Productivity statistics
+        - Pensions statistics
+        - Spending statistics
+        - Shipping statistics
+        - Goods statistics
+        - GDP statistics
+        - Inflation statistics
+        - Price statistics
+        - Financial statistics
+        - Revenue statistics
+        - Revenue data
+        - GDP data
+        - Interest rate statistics
+        - Unemployment rate
+        - Exchange rate
+        - GDP per capita
+        - Consumer price index
+        - Central government debt
+        - Interest rate
+        - Austerity statistics
+        - Gross value added
+        - Retail sales statistics
+        - Average house price
+        - Average wage
+        - Road traffic statistics
+        - Health statistics
+        - Hospital statistics
+        - Social care statistics
+        - Healthcare statistics
+        - Dental statistics
+        - Death statistics
+        - Birth statistics
+        - Disease statistics
+        - Care home statistics
+        - Patient statistics
+        - Mental health statistics
+        - Private health statistics
+        - Public health statistics
+        - NHS statistics
+        - GP data
+        - GP statistics
+        - Smoking statistics
+        - Pregnancy statistics
+        - Children health statistics
+        - Adult health statistics
+        - Foster care statistics
+        - Covid statistics
+        - Doctor appointment statistics
+        - Hospital wait time data
+        - Cancer statistics
+        - Obesity statistics
+        - HIV statistics
+        - Depression statistics
+        - Asthma statistics
+        - Flu statistics
+        - Diabetes statistics
+        - Housing statistics
+        - Planning statistics
+        - House statistics
+        - Rent statistics
+        - Building statistics
+        - Road statistics
+        - Parks statistics
+        - Waste statistics
+        - Fire statistics
+        - Water statistics
+        - Homelessness statistics
+        - Council tax statistics
+        - Mortgage statistics
+        - Green space statistics
+        - Waste water statistics
+        - New house statistics
+        - Housing development statistics
+        - Council house statistics
+        - Urban statistics
+        - Town centre statistics
+        - Rural statistics
+        - Green belt statistics
+        - Rubbish collection statistics
+        - Pothole statistics
+        - Local council statistics
+        - Home buyer statistics
+        - Brown belt statistics
+        - New road statistics
+        - Home owner statistics
+        - Solar panel house statistics
+        - Insulation house statistics
+        - Jobs statistics
+        - Jobs data
+        - Employment statistics
+        - Poverty statistics
+        - Welfare statistics
+        - Earnings statistics
+        - Pension statistics
+        - Benefit statistics
+        - Labour market data
+        - Wage statistics
+        - Earnings statistics
+        - Benefits statistics
+        - Benefits data
+        - Hours worked statistics
+        - Job vacancies statistics
+        - Allowance statistics
+        - Social welfare statistics
+        - Average wage
+        - Average tax
+        - Average hours worked
+        - Universal Credit statistics
+        - Child benefit statistics
+        - Pension Credit statistics
+        - Jobseekers allowance statistics
+        - Income Support statistics
+        - Disability Living Allowance statistics
+        - Tax credits statistics
+        - Housing Benefit statistics
+        - Government pay statistics
+        - MP pay data
+        - Population statistics
+        - Population data
+        - Religion statistics
+        - Culture statistics
+        - Political statistics
+        - Government statistics
+        - United kingdom statistics
+        - UK statistics
+        - England statistics
+        - Society statistics
+        - Migration statistics
+        - Migration data
+        - Deaths statistics
+        - Births statistics
+        - Census statistics
+        - Census data
+        - Population growth statistics
+        - Population change statistics
+        - Urbanisation statistics
+        - Ruralisation statistics
+        - Conservative party statistics
+        - Labour party statistics
+        - Free speech statistics
+        - Refugee statistics
+        - Illegal immigrant statistics
+        - London statistics
+        - Cardiff statistics
+        - Birmingham statistics
+        - English channel statistics
+        - Local death statistics
+        - Travel statistics
+        - Transport statistics
+        - Tourism statistics
+        - Travel data
+        - Transport data
+        - Holiday statistics
+        - Hotel statistics
+        - Visitor statistics
+        - Guest statistics
+        - Holiday data
+        - Train statistics
+        - Driving statistics
+        - Flight statistics
+        - Airport statistics
+        - Car statistics
+        - Bus statistics
+        - Tube statistics
+        - Underground statistics
+        - Commuting statistics
+        - Coach statistics
+        - Motorway statistics
+        - Spain holiday statistics
+        - Spain travel data
+        - London transport data
+        - London underground statistics
+        - Heathrow statistics
+        - Gatwick statistics
+        - Paddington statistics
+        - London tourism statistics
+        - London travel statistics
+    BASELINE:
+      FORCE:
+        - London Keys
+      REGION:
+        - London
+        - Wales
+        - Scotland
+        - Birmingham
+        - Oxford
+        - Manchester
+        - Newcastle
+        - Cornwall
+      RANDOM:
+        - Doors
+        - Bin
+        - Windows
+        - Flooring
+        - Bike
+        - Car
+        - Clock
+        - Keys
+        - Glasses
+        - Lighting
+        - Food
+        - Lamp
+        - Music
+        - News
+        - Chair
+        - Water
+        - Date
+        - Bank
+      INTERESTED:
+        - Health statistics
+        - Covid statistics
+        - Crime statistics
+        - Trade data
+        - Research statistics
+        - FTSE data
+        - School statistics
+        - University data
+        - Skills data
+  GOOGLE:
+    TRUSTEDURLS:
+      - gov.uk
+      - europa.eu
+      - police.uk
+      - nhs.uk
+      - oecd.org
+      - who.int
+      - worldbank.org
+      - bmj.com
+      - un.org
+      - gov.wales
+      - fca.org
+      - bankofengland.co.uk
+      - cdc.gov
+      - nih.gov
+      - hhs.gov
+      - open.ac.uk
+      - parliament.uk
+      - nist.gov
+      - unesco.org
+      - unicef.org
+      - una.org.uk
+      - oecd-ilibrary.org
+    INTERESTED:
+      - Religion statistics
+      - Benefit statistics
+      - Mortgage statistics
+      - Adult health statistics
+      - Vehicle crime statistics
+      - Police statistics
+      - Open university statistics
+      - EU trade statistics
+      - Manufacturing statistics
+      - Health statistics
+      - Literacy rate
+      - Pensions statistics
+      - Social care statistics
+      - Inflation statistics
+      - Obesity statistics
+      - Parks statistics
+      - Jobs statistics
+      - Allowance statistics
+      - Housing benefits statistics
+      - Transport statistics

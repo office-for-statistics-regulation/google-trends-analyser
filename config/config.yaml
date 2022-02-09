@@ -1,0 +1,105 @@
+RUN:
+  GOOGLETRENDS:
+    VIABILITY:
+      FIND: True #True, False
+    BASELINE:
+      FIND: True #True, False
+      DO: True #True, False
+  GOOGLE:
+    FRONTPAGE:
+      DO: True #True, False
+  PLOT: True
+
+VARS:
+  TIMEFRAME: 12M #7D, 30D, 90D, 12M, 5Y, ALL
+  GOOGLETRENDS:
+    VIABILITY:
+      ZEROCOUNT:
+        VIABLE: 3
+        FEW: 7
+        MANY: 15
+        ALMOSTNONE: 30
+      TERMS:
+        - Health statistics
+        - Crime statistics
+        - Population statistics
+        - Environmental statistics
+        - Death statistics
+        - Birth statistics
+        - Travel statistics
+        - Trade statistics
+        - Children statistics
+        - School statistics
+        - Mental health statistics
+        - Covid statistics
+        - UK statistics
+    BASELINE:
+      FORCE:
+        - Cornwall Lighting
+      REGION:
+        - London
+        - Wales
+        - Scotland
+        - Birmingham
+        - Oxford
+        - Manchester
+        - Newcastle
+        - Cornwall
+      RANDOM:
+        - Doors
+        - Bin
+        - Windows
+        - Flooring
+        - Bike
+        - Car
+        - Clock
+        - Keys
+        - Glasses
+        - Lighting
+        - Food
+        - Lamp
+        - Music
+        - News
+        - Chair
+        - Water
+        - Date
+        - Bank
+      INTERESTED:
+        - Health statistics
+        - Crime statistics
+        - Population statistics
+        - Environmental statistics
+        - Death statistics
+        - Birth statistics
+        - Travel statistics
+        - Trade statistics
+  GOOGLE:
+    TRUSTEDURLS:
+      - gov.uk
+      - europa.eu
+      - police.uk
+      - nhs.uk
+      - oecd.org
+      - who.int
+      - worldbank.org
+      - bmj.com
+      - un.org
+      - gov.wales
+      - fca.org
+      - bankofengland.co.uk
+      - cdc.gov
+      - nih.gov
+      - hhs.gov
+      - open.ac.uk
+      - parliament.uk
+      - nist.gov
+      - unesco.org
+      - unicef.org
+      - una.org.uk
+      - oecd-ilibrary.org
+    INTERESTED:
+        - Health statistics
+        - Crime statistics
+        - Population statistics
+        - Environmental statistics
+        - Death statistics
